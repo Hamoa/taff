@@ -11,6 +11,7 @@
 }
 
 
+
 header{
     background-color: white;
     height: 100px;
@@ -41,7 +42,7 @@ input{
     font-size: 14px;
     cursor: pointer;
     position: relative;
-    left: 400px;
+    left: 325px;
     top: -70px;
 }
 
@@ -89,15 +90,13 @@ input{
 
 .contain{
     box-shadow: .5rem 0rem .5rem rgba(0,0,0,0.1);
-    margin-bottom: 200px;
 }
 
 
 .container{
     height: 400px;
     background: rgb(230, 240, 242);
-    box-shadow:  -.5rem .5rem .5rem  rgb(218, 218, 218) ;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    box-shadow:  -1rem 1rem .5rem  rgb(187, 186, 186);
 }
 
 .container img{
@@ -109,6 +108,7 @@ input{
 
 
 .container2{
+    position: relative;
     margin-top: -300px;
 }
 
@@ -120,7 +120,7 @@ input{
     border: 2px solid #00a9ff;
     background-color: white;
     color: #00a9ff;
-    box-shadow: 1px 1px 10px rgb(163, 161, 161);
+    box-shadow: 1px 1px 20px rgb(89, 89, 89);
     position: relative;
     left: 60px;
     margin-top: 10px;
@@ -156,8 +156,14 @@ input{
    color: white;
 }
 
+.row .col ul li p{
+    font-size: 17px;
+}
+
+
 .row .col h3{
    margin-bottom: 20px;
+   margin-left: 10px;
 }
 
 
@@ -165,16 +171,7 @@ input{
     display: flex;
     width: 50px;
     float: left;
-    margin-right: 500px;
-}
-
-.contain1{
-    margin-bottom: 200px;
-}
-
-.content{
-   width: 50px;
-   margin-left: 100px;
+    margin-left: 15%;
 }
 
 .content .bo{
@@ -185,13 +182,17 @@ input{
 .text{
     width:50%;
     padding: 30px 20px;
-    border: 1px solid #f1f1f1;
+    border: 1px solid rgb(223, 222, 222);
     position: relative;
     left: 350px;
-    background: #fff;
-    box-shadow: 0 0 20px 0 rgb(163, 161, 161), 0 5px 5px 0 rgb(163, 161, 161);
+    background: rgb(223, 222, 222);
+    box-shadow: 0 0 20px 0 rgb(154, 145, 145), 0 5px 5px 0 rgb(154, 145, 145);
+    margin-bottom: 30px;
 }
 
 .text1 ul{
-    font-size: 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: sans-serif;
 }
+
